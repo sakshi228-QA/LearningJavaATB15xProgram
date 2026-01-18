@@ -2,7 +2,7 @@ package java_Test_11Jan2025;
 
 import java.util.Scanner;
 
-public class prob_01_Arithmetic_Operations_on_Two_Numbers {
+public class Prob_01_Arithmetic_Operations_on_Two_Numbers {
     public static void main(String[] args) {
 //        1) Arithmetic Operations on Two Numbers
 //        Description:
@@ -23,6 +23,11 @@ public class prob_01_Arithmetic_Operations_on_Two_Numbers {
             System.out.println("reminder " + (num1%num2));
 
         }
+
+        else {
+            System.out.println("please enter valid integer number");
+        }
+        sc.close();
     }
 
 }
